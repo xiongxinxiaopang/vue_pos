@@ -110,7 +110,7 @@ export default {
       .catch(error => {
         this.$message({
           showClose: true,
-          message: "错了哦，这是一条错误消息",
+          message: "服务器错误！",
           type: "error"
         });
       });
